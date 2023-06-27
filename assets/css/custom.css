@@ -1,0 +1,281 @@
+html {
+	background-color: #fff;
+}
+
+html.uk-dark {
+	background-color: #050A30 !important;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.background-video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: .25;
+	overflow: hidden;
+}
+
+.background-video-content {
+	height: 100%;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.uk-text-secondary {
+	color: #00FCA8 !important;
+}
+
+.uk-text-lead {
+	color: #050A30 !important;
+}
+
+.divider {
+	font-size: 3rem;
+	color: #050A30;
+	margin: 3rem auto;
+}
+
+.uk-dark .divider {
+	color: #00FCA8;
+}
+
+.uk-dark .uk-text-lead {
+	color: #00FCA8 !important;
+}
+
+.uni-circle-text {
+	background-color: rgba(5, 10, 48, 0.9);
+	backdrop-filter: blur(15px);
+}
+
+.uk-dark .uni-circle-text {
+	background-color: rgba(30, 39, 109, 0.75);
+	backdrop-filter: blur(15px);
+}
+
+/* .uni-circle-text {
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+} */
+
+.uni-circle-text::before {
+	border-color: rgba(0, 252, 168, 0.5);
+}
+
+.uk-button {
+	color: #fff;
+	background-color: #050A30;
+}
+
+.uk-button.uk-dark,
+.uk-dark .uk-button {
+	color: #050A30 !important;
+	background-color: #00FCA8 !important;
+}
+
+.uk-button:focus.uk-dark,
+.uk-button:hover.uk-dark,
+.uk-dark .uk-button:focus,
+.uk-dark .uk-button:hover {
+	color: #050A30 !important;
+	background-color: #00FCA8 !important;
+}
+
+.uk-card {
+	border: 2px solid rgba(5, 10, 48, 0.75);
+}
+
+.uk-dark .uk-card {
+	border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.feature {
+	flex-direction: column;
+}
+
+.uk-dark a:hover,
+.uk-dark a:link:hover {
+	color: #fff;
+}
+
+.uk-link:hover,
+a:hover {
+	color: #00FCA8;
+}
+
+.uk-button-default.uk-button-outline.uk-active,
+.uk-button-default.uk-button-outline:focus,
+.uk-button-default.uk-button-outline:hover {
+	--btn-shadow-color: transparent !important;
+	background-color: #00FCA8 !important;
+	color: #000 !important;
+}
+
+.uk-button:focus,
+.uk-button:hover {
+	color: #00FCA8;
+}
+
+[data-darkmode-toggle] .switch {
+	width: 64px;
+	height: 64px;
+}
+
+.darkmode-trigger svg {
+	background-color: #000;
+	border-radius: 50%;
+	padding: 10px;
+	fill: #fff;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
+.uk-dark .darkmode-trigger svg {
+	background-color: #fff;
+	fill: #000;
+}
+
+.uni-mobile-menu-content::before {
+	background-color: #050A30;
+	background-image: none;
+}
+
+.uk-dark .uni-mobile-menu-content::before {
+	background-color: #00FCA8;
+}
+
+.text-slider-section {
+	padding: 100px 0;
+}
+
+@media (max-width: 1280px) {
+	.text-slider-section {
+		padding: 0
+	}
+}
+
+.text-slider-area-one,
+.text-slider-area-two {
+	background-color: #1e276d;
+	color: #fff;
+}
+
+.uk-dark .text-slider-area-one,
+.uk-dark .text-slider-area-two {
+	background-color: #00FCA8;
+	color: #000;
+}
+
+.text-slider-area-one {
+	padding: 21px 0;
+	-webkit-transform: skewY(-2.5deg);
+	transform: skewY(-2.5deg)
+}
+
+@media (max-width: 1669px) {
+	.text-slider-area-one {
+		padding: 13px 0
+	}
+}
+
+@media (max-width: 1280px) {
+	.text-slider-area-one {
+		margin: 0;
+		transform: rotate(0)
+	}
+}
+
+.text-slider-area-two {
+	padding: 21px 0;
+	-webkit-transform: skewY(2.5deg);
+	transform: skewY(2.5deg);
+	margin-top: -84px
+}
+
+@media (max-width: 1669px) {
+	.text-slider-area-two {
+		padding: 13px 0;
+		margin-top: -65px
+	}
+}
+
+@media (max-width: 1280px) {
+	.text-slider-area-two {
+		margin: 0;
+		transform: rotate(0)
+	}
+}
+
+.text-slider-data {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	margin: 0 10px;
+	width: max-content !important;
+	flex-direction: row-reverse;
+	-webkit-transform: skewY(0);
+	transform: skewY(0);
+}
+
+.text-slider-data h3 {
+	font-weight: 700;
+	font-size: 28px;
+	display: inline-block;
+	margin: 0 15px;
+	line-height: 36px;
+	letter-spacing: 1px;
+	color: inherit
+}
+
+@media (max-width: 1669px) {
+	.text-slider-data h3 {
+		font-size: 22px
+	}
+}
+
+@media (max-width: 1500px) {
+	.text-slider-data h3 {
+		font-size: 18px
+	}
+}
+
+.text-slider-icon {
+	flex-shrink: 0
+}
+
+.text-slider-icon img {
+	margin: 0 auto
+}
+
+@media (max-width: 600px) {
+	.text-slider-icon {
+		margin-bottom: 10px
+	}
+}
+
+/* 
+
+https://3dicons.co/
+https://iconscout.com/3ds/code?price=free
+https://iconscout.com/3ds/coding
+https://www.youtube.com/watch?v=Di5ph6QD24I
+
+
+https://ai.beemerdocs.com/pitch-builder
+https://pitchdeck.io/
+https://app.presentations.ai/
+
+https://ccu.edu.ng/index.php/2023-essay-competition/
+
+vaultn.i.ng
+Fireship.io - React Superbase Full Course
+
+*/
