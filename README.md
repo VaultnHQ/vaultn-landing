@@ -10,7 +10,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/76774803-bb9b-4922-8334-916d62d71bbe/deploy-status)](https://app.netlify.com/sites/vaultn/deploys)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green.svg?style=flat)](https://github.com/omzi/node-book-api/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![](https://img.shields.io/twitter/follow/0xOmzi.svg?style=social&label=@0xOmzi)
+![](https://img.shields.io/twitter/follow/VaultnHQ.svg?style=social&label=@VaultnHQ)
 
 </div>
 <br>
